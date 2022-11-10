@@ -1,0 +1,114 @@
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7bbd113f435e9d98 -p********** _7bbd113f435e9d98 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./demo_app.com/private/backups/20221027_120002-demo_app_com-database.sql.gz
+
+Backup Summary for demo_app.com at 2022-10-27 12:00:04.858795
+Config  : ./demo_app.com/private/backups/20221027_120002-demo_app_com-site_config_backup.json 94.0B
+Database: ./demo_app.com/private/backups/20221027_120002-demo_app_com-database.sql.gz         1.0MiB
+Backup for Site demo_app.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7bbd113f435e9d98 -p********** _7bbd113f435e9d98 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./demo_app.com/private/backups/20221027_180008-demo_app_com-database.sql.gz
+
+Backup Summary for demo_app.com at 2022-10-27 18:00:11.304777
+Config  : ./demo_app.com/private/backups/20221027_180008-demo_app_com-site_config_backup.json 117.0B
+Database: ./demo_app.com/private/backups/20221027_180008-demo_app_com-database.sql.gz         1.1MiB
+Backup for Site demo_app.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7bbd113f435e9d98 -p********** _7bbd113f435e9d98 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./demo_app.com/private/backups/20221028_120002-demo_app_com-database.sql.gz
+
+Backup Summary for demo_app.com at 2022-10-28 12:00:04.911226
+Config  : ./demo_app.com/private/backups/20221028_120002-demo_app_com-site_config_backup.json 117.0B
+Database: ./demo_app.com/private/backups/20221028_120002-demo_app_com-database.sql.gz         1.1MiB
+Backup for Site demo_app.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7bbd113f435e9d98 -p********** _7bbd113f435e9d98 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./demo_app.com/private/backups/20221028_180008-demo_app_com-database.sql.gz
+
+Backup Summary for demo_app.com at 2022-10-28 18:00:11.604514
+Config  : ./demo_app.com/private/backups/20221028_180008-demo_app_com-site_config_backup.json 117.0B
+Database: ./demo_app.com/private/backups/20221028_180008-demo_app_com-database.sql.gz         1.1MiB
+Backup for Site demo_app.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7bbd113f435e9d98 -p********** _7bbd113f435e9d98 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./demo_app.com/private/backups/20221031_120003-demo_app_com-database.sql.gz
+
+Backup Summary for demo_app.com at 2022-10-31 12:00:05.472197
+Config  : ./demo_app.com/private/backups/20221031_120003-demo_app_com-site_config_backup.json 117.0B
+Database: ./demo_app.com/private/backups/20221031_120003-demo_app_com-database.sql.gz         1.1MiB
+Backup for Site demo_app.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7bbd113f435e9d98 -p********** _7bbd113f435e9d98 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./demo_app.com/private/backups/20221031_180007-demo_app_com-database.sql.gz
+
+Backup Summary for demo_app.com at 2022-10-31 18:00:09.858897
+Config  : ./demo_app.com/private/backups/20221031_180007-demo_app_com-site_config_backup.json 180.0B
+Database: ./demo_app.com/private/backups/20221031_180007-demo_app_com-database.sql.gz         1.3MiB
+Backup for Site demo_app.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7bbd113f435e9d98 -p********** _7bbd113f435e9d98 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./demo_app.com/private/backups/20221101_120002-demo_app_com-database.sql.gz
+
+Backup Summary for demo_app.com at 2022-11-01 12:00:05.418748
+Config  : ./demo_app.com/private/backups/20221101_120002-demo_app_com-site_config_backup.json 180.0B
+Database: ./demo_app.com/private/backups/20221101_120002-demo_app_com-database.sql.gz         1.3MiB
+Backup for Site demo_app.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7bbd113f435e9d98 -p********** _7bbd113f435e9d98 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./demo_app.com/private/backups/20221101_180002-demo_app_com-database.sql.gz
+
+Backup Summary for demo_app.com at 2022-11-01 18:00:05.290644
+Config  : ./demo_app.com/private/backups/20221101_180002-demo_app_com-site_config_backup.json 180.0B
+Database: ./demo_app.com/private/backups/20221101_180002-demo_app_com-database.sql.gz         1.3MiB
+Backup for Site demo_app.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7bbd113f435e9d98 -p********** _7bbd113f435e9d98 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./demo_app.com/private/backups/20221102_120003-demo_app_com-database.sql.gz
+
+Backup Summary for demo_app.com at 2022-11-02 12:00:06.549163
+Config  : ./demo_app.com/private/backups/20221102_120003-demo_app_com-site_config_backup.json 180.0B
+Database: ./demo_app.com/private/backups/20221102_120003-demo_app_com-database.sql.gz         1.3MiB
+Backup for Site demo_app.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7bbd113f435e9d98 -p********** _7bbd113f435e9d98 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./demo_app.com/private/backups/20221103_120004-demo_app_com-database.sql.gz
+
+Backup Summary for demo_app.com at 2022-11-03 12:00:07.105557
+Config  : ./demo_app.com/private/backups/20221103_120004-demo_app_com-site_config_backup.json 180.0B
+Database: ./demo_app.com/private/backups/20221103_120004-demo_app_com-database.sql.gz         1.3MiB
+Backup for Site demo_app.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7bbd113f435e9d98 -p********** _7bbd113f435e9d98 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./demo_app.com/private/backups/20221103_180011-demo_app_com-database.sql.gz
+
+Backup Summary for demo_app.com at 2022-11-03 18:00:15.304146
+Config  : ./demo_app.com/private/backups/20221103_180011-demo_app_com-site_config_backup.json 180.0B
+Database: ./demo_app.com/private/backups/20221103_180011-demo_app_com-database.sql.gz         1.3MiB
+Backup for Site demo_app.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7bbd113f435e9d98 -p********** _7bbd113f435e9d98 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./demo_app.com/private/backups/20221104_120012-demo_app_com-database.sql.gz
+
+Backup Summary for demo_app.com at 2022-11-04 12:00:28.897136
+Config  : ./demo_app.com/private/backups/20221104_120012-demo_app_com-site_config_backup.json 180.0B
+Database: ./demo_app.com/private/backups/20221104_120012-demo_app_com-database.sql.gz         1.3MiB
+Backup for Site demo_app.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7bbd113f435e9d98 -p********** _7bbd113f435e9d98 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./demo_app.com/private/backups/20221107_120002-demo_app_com-database.sql.gz
+
+Backup Summary for demo_app.com at 2022-11-07 12:00:05.058496
+Config  : ./demo_app.com/private/backups/20221107_120002-demo_app_com-site_config_backup.json 180.0B
+Database: ./demo_app.com/private/backups/20221107_120002-demo_app_com-database.sql.gz         1.3MiB
+Backup for Site demo_app.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7bbd113f435e9d98 -p********** _7bbd113f435e9d98 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./demo_app.com/private/backups/20221107_180002-demo_app_com-database.sql.gz
+
+Backup Summary for demo_app.com at 2022-11-07 18:00:18.301814
+Config  : ./demo_app.com/private/backups/20221107_180002-demo_app_com-site_config_backup.json 180.0B
+Database: ./demo_app.com/private/backups/20221107_180002-demo_app_com-database.sql.gz         1.3MiB
+Backup for Site demo_app.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7bbd113f435e9d98 -p********** _7bbd113f435e9d98 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./demo_app.com/private/backups/20221108_120019-demo_app_com-database.sql.gz
+
+Backup Summary for demo_app.com at 2022-11-08 12:00:36.318921
+Config  : ./demo_app.com/private/backups/20221108_120019-demo_app_com-site_config_backup.json 180.0B
+Database: ./demo_app.com/private/backups/20221108_120019-demo_app_com-database.sql.gz         1.3MiB
+Backup for Site demo_app.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7bbd113f435e9d98 -p********** _7bbd113f435e9d98 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./demo_app.com/private/backups/20221108_180020-demo_app_com-database.sql.gz
+
+Backup Summary for demo_app.com at 2022-11-08 18:00:33.553324
+Config  : ./demo_app.com/private/backups/20221108_180020-demo_app_com-site_config_backup.json 180.0B
+Database: ./demo_app.com/private/backups/20221108_180020-demo_app_com-database.sql.gz         1.3MiB
+Backup for Site demo_app.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7bbd113f435e9d98 -p********** _7bbd113f435e9d98 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./demo_app.com/private/backups/20221109_120003-demo_app_com-database.sql.gz
+
+Backup Summary for demo_app.com at 2022-11-09 12:00:16.564846
+Config  : ./demo_app.com/private/backups/20221109_120003-demo_app_com-site_config_backup.json 180.0B
+Database: ./demo_app.com/private/backups/20221109_120003-demo_app_com-database.sql.gz         1.3MiB
+Backup for Site demo_app.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7bbd113f435e9d98 -p********** _7bbd113f435e9d98 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./demo_app.com/private/backups/20221109_180003-demo_app_com-database.sql.gz
+
+Backup Summary for demo_app.com at 2022-11-09 18:00:06.685653
+Config  : ./demo_app.com/private/backups/20221109_180003-demo_app_com-site_config_backup.json 180.0B
+Database: ./demo_app.com/private/backups/20221109_180003-demo_app_com-database.sql.gz         1.3MiB
+Backup for Site demo_app.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7bbd113f435e9d98 -p********** _7bbd113f435e9d98 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./demo_app.com/private/backups/20221110_120003-demo_app_com-database.sql.gz
+
+Backup Summary for demo_app.com at 2022-11-10 12:00:07.900074
+Config  : ./demo_app.com/private/backups/20221110_120003-demo_app_com-site_config_backup.json 180.0B
+Database: ./demo_app.com/private/backups/20221110_120003-demo_app_com-database.sql.gz         1.3MiB
+Backup for Site demo_app.com has been successfully completed

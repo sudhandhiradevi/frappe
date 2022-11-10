@@ -1,0 +1,12 @@
+2022-10-27 17:43:34,899 ERROR frappe New Exception collected with id: 2022-10-27 17:43:34.801394-127.0.0.1-2b6
+Site: demo_app.com
+Form Dict: {'doctype': 'Sales Order', 'name': 'new print', 'based_on': 'sales order 1', 'beta': 'false', 'cmd': 'frappe.printing.page.print_format_builder.print_format_builder.create_custom_format'}
+2022-10-28 11:38:32,824 ERROR frappe New Exception collected with id: 2022-10-28 11:38:32.684296-127.0.0.1-b01
+Site: demo_app.com
+Form Dict: {'doctype': 'Sales Order', 'name': 'new sales order', 'based_on': 'sales order 1', 'beta': 'false', 'cmd': 'frappe.printing.page.print_format_builder.print_format_builder.create_custom_format'}
+2022-10-31 10:26:17,127 ERROR frappe New Exception collected with id: 2022-10-31 10:26:16.160563-127.0.0.1-76f
+Site: demo_app.com
+Form Dict: {'start': '2022-10-31', 'end': '2022-10-31'}
+2022-11-07 12:14:53,663 ERROR frappe New Exception collected with id: 2022-11-07 12:14:53.028797-127.0.0.1-23f
+Site: demo_app.com
+Form Dict: {'doctype': 'Company', 'name': 'Eorchids', 'items': '["Quotation","Sales Order","Delivery Note","Sales Invoice","Issue","Project"]', 'cmd': 'frappe.desk.notifications.get_open_count'}
