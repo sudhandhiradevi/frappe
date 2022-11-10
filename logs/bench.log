@@ -190,3 +190,7 @@
 2022-11-10 10:24:30,418 INFO /usr/local/bin/bench worker --queue short
 2022-11-10 10:24:30,436 INFO /usr/local/bin/bench schedule
 2022-11-10 12:00:02,900 INFO /usr/local/bin/bench --verbose --site all backup
+2022-11-10 14:30:47,124 INFO /usr/local/bin/bench start
+2022-11-10 14:31:20,830 INFO /usr/local/bin/bench start
+2022-11-10 14:42:05,592 INFO /usr/local/bin/bench start
+2022-11-10 15:15:19,774 INFO /usr/local/bin/bench start
