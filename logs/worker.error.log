@@ -25806,3 +25806,447 @@ redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connec
   warn(
 /home/e-orchids/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
   warn(
+/home/e-orchids/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/e-orchids/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/e-orchids/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/e-orchids/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/e-orchids/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/e-orchids/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/e-orchids/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/e-orchids/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/e-orchids/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/e-orchids/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/e-orchids/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/e-orchids/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/e-orchids/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/e-orchids/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/e-orchids/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/e-orchids/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/e-orchids/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/e-orchids/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    return self._parser.can_read(timeout)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+10:03:33 Traceback (most recent call last):
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1198, in get_connection
+    if connection.can_read():
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1072, in perform_job
+    self.handle_job_success(job=job,
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1003, in handle_job_success
+    pipeline.watch(job.dependents_key)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 4041, in watch
+    return self.execute_command('WATCH', *names)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3822, in execute_command
+    return self.immediate_execute_command(*args, **kwargs)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3836, in immediate_execute_command
+    conn = self.connection_pool.get_connection(command_name,
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1202, in get_connection
+    connection.connect()
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11000. Connection refused.
+Traceback (most recent call last):
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1198, in get_connection
+    if connection.can_read():
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1072, in perform_job
+    self.handle_job_success(job=job,
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1003, in handle_job_success
+    pipeline.watch(job.dependents_key)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 4041, in watch
+    return self.execute_command('WATCH', *names)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3822, in execute_command
+    return self.immediate_execute_command(*args, **kwargs)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3836, in immediate_execute_command
+    conn = self.connection_pool.get_connection(command_name,
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1202, in get_connection
+    connection.connect()
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11000. Connection refused.
+10:03:33 Traceback (most recent call last):
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1198, in get_connection
+    if connection.can_read():
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1072, in perform_job
+    self.handle_job_success(job=job,
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1003, in handle_job_success
+    pipeline.watch(job.dependents_key)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 4041, in watch
+    return self.execute_command('WATCH', *names)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3822, in execute_command
+    return self.immediate_execute_command(*args, **kwargs)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3836, in immediate_execute_command
+    conn = self.connection_pool.get_connection(command_name,
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1202, in get_connection
+    connection.connect()
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11000. Connection refused.
+Traceback (most recent call last):
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1198, in get_connection
+    if connection.can_read():
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1072, in perform_job
+    self.handle_job_success(job=job,
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1003, in handle_job_success
+    pipeline.watch(job.dependents_key)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 4041, in watch
+    return self.execute_command('WATCH', *names)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3822, in execute_command
+    return self.immediate_execute_command(*args, **kwargs)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3836, in immediate_execute_command
+    conn = self.connection_pool.get_connection(command_name,
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1202, in get_connection
+    connection.connect()
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11000. Connection refused.
+10:03:33 Worker rq:worker:e442a5d167c0411aa172e6b49fc7ba01.eorchids-HP-Laptop-15-da0xxx.4588.home-e-orchids-frappe-bench:long: found an unhandled exception, quitting...
+Traceback (most recent call last):
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1198, in get_connection
+    if connection.can_read():
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 606, in work
+    self.execute_job(job, queue)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 867, in execute_job
+    self.monitor_work_horse(job, queue)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 827, in monitor_work_horse
+    self.set_current_job_working_time(0)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 393, in set_current_job_working_time
+    connection.hset(self.key, 'current_job_working_time', current_job_working_time)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3050, in hset
+    return self.execute_command('HSET', name, *items)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1202, in get_connection
+    connection.connect()
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11000. Connection refused.
+Traceback (most recent call last):
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+10:03:33 Worker rq:worker:0418b7b879f74000bd198b83c9b8fb36.eorchids-HP-Laptop-15-da0xxx.4598.home-e-orchids-frappe-bench:default: found an unhandled exception, quitting...
+Traceback (most recent call last):
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1198, in get_connection
+    if connection.can_read():
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 606, in work
+    self.execute_job(job, queue)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 867, in execute_job
+    self.monitor_work_horse(job, queue)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 827, in monitor_work_horse
+    self.set_current_job_working_time(0)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 393, in set_current_job_working_time
+    connection.hset(self.key, 'current_job_working_time', current_job_working_time)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3050, in hset
+    return self.execute_command('HSET', name, *items)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1202, in get_connection
+    connection.connect()
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11000. Connection refused.
+    sock = self._connect()
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+Traceback (most recent call last):
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    sock = self._connect()
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+        return _run_code(code, main_globals, None,return _run_code(code, main_globals, None,
+
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+        exec(code, run_globals)exec(code, run_globals)
+
+  File "/home/e-orchids/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 109, in <module>
+  File "/home/e-orchids/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 109, in <module>
+        main()main()
+
+  File "/home/e-orchids/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+  File "/home/e-orchids/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+        click.Group(commands=commands)(prog_name="bench")click.Group(commands=commands)(prog_name="bench")
+
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+        return self.main(*args, **kwargs)return self.main(*args, **kwargs)
+
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+        rv = self.invoke(ctx)rv = self.invoke(ctx)
+
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+        return _process_result(sub_ctx.command.invoke(sub_ctx))return _process_result(sub_ctx.command.invoke(sub_ctx))
+
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+        return _process_result(sub_ctx.command.invoke(sub_ctx))return _process_result(sub_ctx.command.invoke(sub_ctx))
+
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+        return ctx.invoke(self.callback, **ctx.params)return ctx.invoke(self.callback, **ctx.params)
+
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+        return callback(*args, **kwargs)return callback(*args, **kwargs)
+
+  File "/home/e-orchids/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 189, in start_worker
+  File "/home/e-orchids/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 189, in start_worker
+        start_worker(queue, quiet=quiet, rq_username=rq_username, rq_password=rq_password)start_worker(queue, quiet=quiet, rq_username=rq_username, rq_password=rq_password)
+
+  File "/home/e-orchids/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 218, in start_worker
+  File "/home/e-orchids/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 218, in start_worker
+        Worker(queues, name=get_worker_name(queue_name)).work(logging_level=logging_level)Worker(queues, name=get_worker_name(queue_name)).work(logging_level=logging_level)
+
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 637, in work
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 637, in work
+        self.register_death()self.register_death()
+
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 337, in register_death
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 337, in register_death
+        p.execute()p.execute()
+
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 4012, in execute
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 4012, in execute
+        conn = self.connection_pool.get_connection('MULTI',conn = self.connection_pool.get_connection('MULTI',
+
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+        connection.connect()connection.connect()
+
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+        raise ConnectionError(self._error_message(e))raise ConnectionError(self._error_message(e))
+
+redis.exceptionsredis.exceptions..ConnectionErrorConnectionError: : Error 111 connecting to localhost:11000. Connection refused.Error 111 connecting to localhost:11000. Connection refused.
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/e-orchids/frappe14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
